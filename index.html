@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Katy's Page</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Katherine Long</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#edu">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#achievements">Achievements</a>
+            <!-- <a href="#targets">My Targets</a> -->
+            <a href="#form">Contact</a>
+        </nav>
+
+    </header>
+    <div class="content">
+        <section>
+            <h4 id="about">About Me</h4>
+            <blockquote>"She eats like a child. She has a list of foods she hates. She keeps count of them." <br>
+                <i>- My sister, about me</i>
+            </blockquote>
+            <p>My name is Katherine Long, but I am known as Klong. I am a Junior Instructor with Code Nation. I was a Deputy Stage Manager for approximately 10 years, until a fall from height left me with an injury and a fear of heights, and I found myself needing a new career path. I joined Knowsley Safari Park in March 2020 as a Guest Engagement Presenter delivering talks and tours to schools and visitors, but due to world events, that role was stopped. I remained in the park as a steward/janitor but found that my injuries really prevented me from enjoying my role - which included a huge amount of walking!</p>
+            <p>In January 2021, I attended a 3-week coding course that I'd seen on Reddit with Code Nation. I completed the course, and had a wonderful time meeting new people and gaining new skills. Shortly after, Code Nation contacted me asking me to join their team, and I have remained there to the present.</p>
+            
+            <p>In my spare time, I enjoy playing video games, chess, attending gigs, and rugby league. I play the trumpet, the violin, the guitar, and I can muddle through music on a piano. I study Marine Biology part time, and am hoping to combine my interests in development and conservation. I can't swim.</p>
+        </section>
+        <section>
+            <h4 id="edu">Education</h4>
+            <img src="Icon.png" class="spacer-img">
+            <table>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Grade</th>
+                    <th>Year</th>
+                    <th>Awarding Body</th>
+                </tr>
+                <tr>
+                    <td>BA Hons Theatre & Performance Technology</td>
+                    <td>2:1</td>
+                    <td>2013</td>
+                    <td>LIPA</td>
+                </tr>
+                <tr>
+                    <td>Level 3 IT User Skills </td>
+                    <td>Pass</td>
+                    <td>2022</td>
+                    <td>Code Nation /TLM</td>
+                </tr>
+                <tr>
+                    <td>Level 3 Marine Biology & Open Science</td>
+                    <td>Distinction</td>
+                    <td>2021</td>
+                    <td>Open Study College</td>
+                </tr>
+                <tr>
+                    <td>Level 2 Cyber Security & Digital Forensics</td>
+                    <td>Distinction *</td>
+                    <td>2021</td>
+                    <td>Code Nation / TLM</td>
+                </tr>
+                <tr>
+                    <td>Level 2 IT User Skills </td>
+                    <td>Pass</td>
+                    <td>2021</td>
+                    <td>Code Nation /TLM</td>
+                </tr>
+            </table>
+        </section>
+        <!-- Section is a semantic element - while its visual purpose is much the same as div (it creates a block) the tag name provides some description to the browser and developer about what it is. It isn't just a box (div) - it's a box of(section, article etc)..... -->
+
+        <section>
+            <h4 id="skills"> Skills</h4>
+            <p>As a <strong>developer</strong> I am confident in delivering HTML, CSS, Sass, JS, Flask and Python to a Level 3 standard. I have experience with both procedural and object-oriented programming. I have experience with Agile, Waterfall and Kanban methodolgies.</p>
+            <p>As an <strong>instructor</strong> I am confident in devlivering HTML, CSS, Sass, JS, Flask and Python to a Level 3 standard. I have experience with both procedural and object-oriented programming. I have experience with Agile, Waterfall and Kanban methodolgies.</p>
+
+        </section>
+        <section>
+            <h4 id="achievements"> Achievements</h4>
+            <p>As an <strong>Innovation Developer</strong> I have delivered 17 courses, from 2-day intoduction courses to Level 3 Innovate curriculums. I have taught over 200 students, and in my first six months had a retention and pass rate of 100% </p>
+            <p>As a <strong>Stage Manager</strong> I have been involved in over 50 productions, totalling over 1,000 performances. I was trained in showcalling, flying, prop making, health & safety, fire marshalling and basic special effects with focus on water-based effects</p>
+            <p>As a <strong>Volunteer Club Administator</strong> for Liverpool Lions ARLFC, I became a qualified Club Welfare Officer, L1 Rugby League Coach, and volunteer co-ordinator. I won Liverpool Young Sports Volunteer of the Year in 2010</p>
+        </section>
+        <!-- <section>
+            <h4 id="targets"> My Targets and Progress</h4>
+            <p>
+        </section> -->
+        <section>
+            <h4 id="form"> Sign Up For A Course</h4>
+            <!-- Using label is helpful for accessibilty - the whole label area can be interacted with. For example, rather than having to click on the very small radio button, the user can click on that area and it will still select the radio button. 
+When using label, the for attribute links to the ID of the item. -->
+            <form>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" placeholder="Input a Username"><br>
+                <label for="pword">Password:</label><br>
+                <input type="text" id="pword" name="pword" placeholder="Input a password"><br>
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email" placeholder="Input an email address"><br>
+                <input type="radio" id="software" name="course_choice" value="Software">
+                <label for="software">Master Software</label><br>
+                <input type="radio" id="cyber" name="course_choice" value="Cyber">
+                <label for="cyber">Master Cyber</label><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <a href="#top">Back to top</a>
+        <a href="https://genshin.hoyoverse.com" target="_blank">Genshin Impact</a>
+        <a href="https://github.com/uglyfish1991" target="_blank">My GitHub</a>
+        <a href="https://www.flaticon.com/free-icons/computer" title="computer icons">Computer icons created by Freepik
+            - Flaticon</a>"
+    </footer>
+
+</body>
+
+</html>
